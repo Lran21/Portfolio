@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauren Reyna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Poppins:wght@300;400;500;600;700;800;900&family=Rajdhani:wght@600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul id="nav-list">
+            <li><a href="#">Lauren.</a></li>
+            <li><a href="#about-me-section">About Me</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <img src="imgs/arcade.jfif" alt="arcade with a dark background" id="arcade">
+        <p id="wmsg">Welcome.</p>
+    </div>
+    <div class="header-one" id="about-me-section">
+        <h1>About Me:</h1>
+        <p id="about-me">I'm Lauren. I'm a front-end web developer looking for my first opportunity to help you and your wildest dreams come true. I have a passion for learning new technologies, as well as old ones. As for personal hobbies, besides building websites, I like to play video games, watch Netflix, build computers, and watch sports. Feel free to contact me if you like what you see. I look forward to hearing from you!</p>
+        <!-- Add HTML, CSS, JS, etc. images here-->
+        <h2>Skills:</h2>
+        <div class="skills">
+            <img class="skill-logo" src="imgs/htmlicon.png" alt="image of html logo">
+            <img class="skill-logo" src="imgs/cssicon.png" alt="image of css logo">
+            <img class="skill-logo" src="imgs/jsicon.png" alt="image of javascript logo">
+        </div>
+    </div>
+    <div class="projects" id="projects-section">
+        <h3>My projects:</h3>
+        <p>To be continued...</p>
+        <img src="imgs/neonlights.png" alt="neon lights couple" id="neonpic">
+    </div>
+
+<div class="contactsection" id="contact-section">
+        <h4>Contact Me:</h4>
+        <textarea id="myText">Say hello!</textarea>
+        <div class="emailbutton">
+            <button onclick="sendEmail(); return false"class="btn" id="contact-me">Send an e-mail!</button>
+        </div>
+</div>
+<footer class="footer">
+        <div class="contact-imgs">
+            <a href="https://www.linkedin.com/in/lauren-reyna-102874173" target="_blank" rel="noopener noreferrer"><img class="image-links" src="imgs/linkedinlogo.png" alt="LinkedIn logo"></a>
+            <a href="https://github.com/Lran21" target="_blank" rel="noopener noreferrer"><img class="image-links"src="imgs/githublogo.png" alt="github logo"></a>
+            <a onclick="topFunction()" id="top" title="Go to top"><img id="arrowup" src="imgs/arrowup.png"></a>
+        </div>
+</footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
